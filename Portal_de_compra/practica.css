@@ -1,0 +1,156 @@
+h1 {
+    color: dodgerblue;
+    font-family: "Courier New";
+    font-weight: bold;
+
+
+}
+
+h2 {
+    color: darkred;
+    font-family: "Corbel";
+    font-weight: bold;
+}
+
+h3 {
+    color: seagreen;
+    font-family: "Calibri Light";
+}
+
+body {
+    background: linear-gradient(to right, orange , lightsalmon);
+}
+
+p{
+    border: 1px solid darkorange;
+}
+
+img{
+    width:150px;
+}
+
+.Detalles-productos{
+    display: grid;
+    grid-template-areas:
+            'AJAX-Categoria Mostrar-productos Mostrar-productos';
+
+}
+
+.AJAX-Categoria{
+    grid-area: AJAX-Categoria;
+}
+
+.Mostrar-productos{
+    grid-area: Mostrar-productos;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+.Titulo-Productos{
+    display:none;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 60% 15% 15% 10%;
+    height: 130px;
+    background: linear-gradient(to right, lightskyblue, lavender);
+}
+
+.Producto-Unico{
+    display: none;
+}
+
+.menu-no-usuario{
+    width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.menu-no-usuario>ul>li{
+    list-style: none;
+
+}
+
+.menu-no-usuario>ul>li h2{
+    display: block;
+}
+
+.menu-no-usuario>ul>li>ul{
+    display: none;
+    list-style: none;
+
+}
+
+.menu-no-usuario>ul>li>ul>li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu-usuario-logeado{
+    width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.menu-usuario-logeado>ul>li{
+    list-style: none;
+
+}
+
+.menu-usuario-logeado>ul>li h2{
+    display: block;
+}
+
+.menu-usuario-logeado>ul>li>ul{
+    display: none;
+    list-style: none;
+
+}
+
+.menu-usuario-logeado>ul>li>ul>li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+.carrito{
+    text-align: center;
+}
+.carrito a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.resumen-carrito p{
+    border: none;
+}
+
+.ul-carrito{
+    list-style: none;
+}
+
+.b-acabar-comanda{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.vaciar-carrito{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
