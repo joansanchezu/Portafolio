@@ -1,5 +1,5 @@
 # Portafolio
-Conjunto de códigos que he realizado durante la carrera.
+Conjunto de códigos que he realizado durante la carrera. No son proyectos completos, son archivos para enseñar mi manera de programar, comentar, y estructurar código.
 
 En el directorio 'Andoid' tenemos algunos ejemplos de clases de la aplicación móvildesarrollada en Android.
 
